@@ -1,0 +1,6 @@
+pandas ==2.1.4
+cloudpickle==2.2.1
+pickleshare==0.7.5
+streamlit==1.37.0
+numpy==1.26.4
+scikit-learn==1.2.2
