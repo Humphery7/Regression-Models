@@ -1,11 +1,14 @@
 import streamlit as st
 import pickle
 import numpy as np
+import os
 
 
+cwd = os.getcwd()
+path = os.path.join(cwd,'model.pkl')
 
 # Load the model from the file
-with open('model.pkl', 'rb') as f:
+with open(path, 'rb') as f:
     model = pickle.load(f)
 
 
